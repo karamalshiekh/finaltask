@@ -1,7 +1,11 @@
-import 'package:chat_and_session/features/widgets/appbar_chatpage_and_session.dart';
-import 'package:chat_and_session/features/widgets/buttom_bar.dart';
-import 'package:chat_and_session/features/pages/chat_page/component/text_chat.dart';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import '../../../../application/application.dart';
+import '../../../widgets/appbar_chatpage_and_session.dart';
+import '../../../widgets/buttom_bar.dart';
+import '../component/text_chat.dart';
 
 class ChatPage extends StatelessWidget {
   const ChatPage({Key? key}) : super(key: key);
@@ -20,6 +24,7 @@ class ChatPage extends StatelessWidget {
       body: Column(
         children: [
           Expanded(child: SingleChildScrollView(child: TextChat(img: 'assets/images/image 13.png',))),
+
           const ButtomBar(),
         ],
       ),

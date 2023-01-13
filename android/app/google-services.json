@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601892356901",
+    "project_id": "chatandsession",
+    "storage_bucket": "chatandsession.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601892356901:android:3e74f03752978580a650cc",
+        "android_client_info": {
+          "package_name": "com.example.chat_and_session"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601892356901-hpjh2t5i54o99d90dfq2i0boagrhhh75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzM_LBuSgPLS1OX2jqEOCncXcisp2fdRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601892356901-hpjh2t5i54o99d90dfq2i0boagrhhh75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

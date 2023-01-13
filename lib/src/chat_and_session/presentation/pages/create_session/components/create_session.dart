@@ -1,4 +1,4 @@
-import 'package:chat_and_session/features/pages/create_session/components/textfield_model.dart';
+import 'package:chat_and_session/src/chat_and_session/presentation/pages/create_session/components/textfield_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../widgets/buttombar_session.dart';
